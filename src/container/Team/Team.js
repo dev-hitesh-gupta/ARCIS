@@ -12,60 +12,52 @@ export default function Team() {
                             <Image src="holder.js/500x500" roundedCircle/>
                             <br/>
                             <br/>
-                            <strong>Uday Pande</strong><br/>
+                            <strong>Ar. MANISH GUPTA (M.Arch & B.Arch)</strong><br/>
                             Founding Partner<br/><br/>
 
                             Fellow, Indian Institute of Architects<br/>
                             Fellow, Indian Institute of Town Planners<br/><br/>
 
-                            Uday Pande is a Founding Partner in N+U Design Studio. He has led the firm since its
-                            inception. With a clear vision and continuous & persuasive efforts, he has brought the firm
-                            to a leading position. His thorough understanding of government norms and policies of
-                            various states has resultedin the firm’s presense through out the country. It has also
-                            enriched the portfolio with works in both private and public sector.
-
-                            He has mentored team leaders with a strong sense of responsibility towards clients &
-                            projects, always aiming for high quality standards in delivering the work. His zeal and
-                            management skills have helped in pushing several projects through timely completion. It was
-                            his vision that today N+U Design Studio offers comprehensiveservicessuch as Architecture,
-                            Urban Planning, Interior Designing, MEP, HVAC, all under one roof.
-
-                            Mr. Pande completed Bachelor of Architecture from Visvesvaraya Regional College of
-                            Engineering (now VNIT), Nagpur in 1979 and Master’s degree in Urban & Regional Planning at
-                            School of Planning & Architecture, New Delhi. Before founding Nivedita & Uday Pande
-                            Consultants in 1992, Mr. Pande worked with Bombay Metropolitan Region Development Authority
-                            (now MMRDA), Delhi Development Authority and ECMC Design Group which he founded and lead for
-                            five years. </p>
+                            Ar. MANISH GUPTA (M.Arch & B.Arch) & Ar. VIRAT JAL0TA(B.Arch & B.Sc Interiors)
+                            are the Joint Principal Architects. The firm works at multiple scales and with various organizations
+                            right from private clients to corporate & NGOs. This allows them to experiment and diversify work:
+                            master planning, architectural & interior projects, such as luxury villas, high end residences and
+                            unique offices, as well as hospitality & institutional projects , Industries & several charitable
+                            works. ARCIS DESIGN approach is to re-connect architecture with nature, make optimum use of space,
+                            natural materials, lighting & landscape to reinvent and transform living environments and urban
+                            spaces. The firm strives to create design that inspires, approaching each project, regardless of
+                            size & scale, with an understanding that architecture has a unique power to influence lifestyle and
+                            society. Their forte is attention to details and customization. Honesty to design, client
+                            satisfaction, and sustainability are the driving forces, along with the ability to constantly
+                            explore & evolve. They are dedicated to unique design approaches adapted to each project, and
+                            achieving a balance between functionality & aesthetics, context, climate, material, cost &
+                            time-frame.. </p>
                     </Col>
                     <Col>
                         <p className='text-center'>
                             <Image src="holder.js/500x500" roundedCircle/>
                             <br/>
                             <br/>
-                            <strong>Uday Pande</strong><br/>
+                            <strong>Ar. VIRAT JAL0TA(B.Arch & B.Sc Interiors)</strong><br/>
                             Founding Partner<br/><br/>
 
                             Fellow, Indian Institute of Architects<br/>
                             Fellow, Indian Institute of Town Planners<br/><br/>
 
-                            Uday Pande is a Founding Partner in N+U Design Studio. He has led the firm since its
-                            inception. With a clear vision and continuous & persuasive efforts, he has brought the firm
-                            to a leading position. His thorough understanding of government norms and policies of
-                            various states has resultedin the firm’s presense through out the country. It has also
-                            enriched the portfolio with works in both private and public sector.
-
-                            He has mentored team leaders with a strong sense of responsibility towards clients &
-                            projects, always aiming for high quality standards in delivering the work. His zeal and
-                            management skills have helped in pushing several projects through timely completion. It was
-                            his vision that today N+U Design Studio offers comprehensiveservicessuch as Architecture,
-                            Urban Planning, Interior Designing, MEP, HVAC, all under one roof.
-
-                            Mr. Pande completed Bachelor of Architecture from Visvesvaraya Regional College of
-                            Engineering (now VNIT), Nagpur in 1979 and Master’s degree in Urban & Regional Planning at
-                            School of Planning & Architecture, New Delhi. Before founding Nivedita & Uday Pande
-                            Consultants in 1992, Mr. Pande worked with Bombay Metropolitan Region Development Authority
-                            (now MMRDA), Delhi Development Authority and ECMC Design Group which he founded and lead for
-                            five years. </p>
+                            Ar. MANISH GUPTA (M.Arch & B.Arch) & Ar. VIRAT JAL0TA(B.Arch & B.Sc Interiors)
+                            are the Joint Principal Architects. The firm works at multiple scales and with various organizations
+                            right from private clients to corporate & NGOs. This allows them to experiment and diversify work:
+                            master planning, architectural & interior projects, such as luxury villas, high end residences and
+                            unique offices, as well as hospitality & institutional projects , Industries & several charitable
+                            works. ARCIS DESIGN approach is to re-connect architecture with nature, make optimum use of space,
+                            natural materials, lighting & landscape to reinvent and transform living environments and urban
+                            spaces. The firm strives to create design that inspires, approaching each project, regardless of
+                            size & scale, with an understanding that architecture has a unique power to influence lifestyle and
+                            society. Their forte is attention to details and customization. Honesty to design, client
+                            satisfaction, and sustainability are the driving forces, along with the ability to constantly
+                            explore & evolve. They are dedicated to unique design approaches adapted to each project, and
+                            achieving a balance between functionality & aesthetics, context, climate, material, cost &
+                            time-frame.. </p>
 
                     </Col>
                     <h2 className='text-center mt-5'><strong>Team member</strong></h2>
@@ -74,25 +66,25 @@ export default function Team() {
                     <Image src="holder.js/100x100" roundedCircle/>
                     <br/>
                     <br/>
-                    <strong>Uday Pande</strong><br/>
+                    <strong>Team 1</strong><br/>
                     Founding Partner
                 </p></Col><Col><p className='text-center'>
                   <Image src="holder.js/100x100" roundedCircle/>
                   <br/>
                   <br/>
-                  <strong>Uday Pande</strong><br/>
+                  <strong>Team 1</strong><br/>
                   Founding Partner
                 </p></Col><Col><p className='text-center'>
                   <Image src="holder.js/100x100" roundedCircle/>
                   <br/>
                   <br/>
-                  <strong>Uday Pande</strong><br/>
+                  <strong>Team 1</strong><br/>
                   Founding Partner
                 </p></Col><Col><p className='text-center'>
                   <Image src="holder.js/100x100" roundedCircle/>
                   <br/>
                   <br/>
-                  <strong>Uday Pande</strong><br/>
+                  <strong>Team 1</strong><br/>
                   Founding Partner
                 </p></Col></Row>
                 </Container>
