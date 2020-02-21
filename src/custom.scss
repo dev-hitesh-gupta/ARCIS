@@ -1,0 +1,14 @@
+// Your variable overrides
+$body-bg: #000 !important;
+$body-color: #111;
+$card-bg: #000 !important;
+$card-border-color: #fff !important;
+$card-color: #fff !important;
+$theme-colors: (
+        "primary": #e89f02,
+        "danger": #ff4136
+);
+// Bootstrap and its default variables
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
