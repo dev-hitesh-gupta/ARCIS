@@ -11,6 +11,7 @@ import Projects from "./container/Projects/Projects";
 import Team from "./container/Team/Team";
 import Contact from "./container/Contact/Contact";
 import Project from "./container/Project/Project";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
   return (
@@ -33,6 +34,7 @@ export default function App() {
               <Home />
             </Route>
           </Switch>
+        <Footer/>
       </Router>
   );
 }

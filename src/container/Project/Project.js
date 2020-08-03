@@ -4,13 +4,13 @@ import {withRouter} from "react-router";
 
 function Project() {
     return (
-        <Card className ='border-dark'>
+        <Card className='border-dark'>
             <Card.Body>
                 <Carousel className='p-5 pl-2 pr-2'>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="holder.js/600x400?text=First slide&bg=373940"
+                            src={process.env.PUBLIC_URL + "/dan-gold-N7RiDzfF2iw-unsplash.jpg"}
                             alt="First slide"
                         />
                         <Carousel.Caption>
@@ -21,7 +21,7 @@ function Project() {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="holder.js/600x400?text=Second slide&bg=282c34"
+                            src={process.env.PUBLIC_URL + "/isai-ramos-K0yNjawjRkM-unsplash.jpg"}
                             alt="Third slide"
                         />
 
@@ -33,7 +33,7 @@ function Project() {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="holder.js/600x400?text=Third slide&bg=20232a"
+                            src={process.env.PUBLIC_URL + "/scott-umstattd-Vy-sy7IiGok-unsplash.jpg"}
                             alt="Third slide"
                         />
 
@@ -44,27 +44,27 @@ function Project() {
                     </Carousel.Item>
                 </Carousel>
                 <div className='p-5 pl-2 pr-2'>
-                <Row>
-                    <Col className='m-3'> <Card.Title>PROJECT:-</Card.Title>
-                        <Card.Text> Mr. Pradeep Sharma Residence</Card.Text>
-                    </Col>
-                    <Col className='m-3'> <Card.Title>LOCATION:-</Card.Title>
-                        <Card.Text> Sector -21B , Faridabad</Card.Text>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col className='m-3'> <Card.Title>AREA:-</Card.Title>
-                        <Card.Text> 1000 Sq.yrd.</Card.Text>
-                    </Col>
-                    <Col className='m-3'> <Card.Title>TYPE OF BUILDING:-</Card.Title>
-                        <Card.Text> Residential Building Ground , First & Second Floor</Card.Text>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col className='m-3'> <Card.Title>SERVICES PROVIDED :-</Card.Title>
-                        <Card.Text> •Architecture Services •Interior Design Services •Elevation Work</Card.Text>
-                    </Col>
-                </Row>
+                    <Row>
+                        <Col className='m-3'> <Card.Title>PROJECT:-</Card.Title>
+                            <Card.Text> Mr. Pradeep Sharma Residence</Card.Text>
+                        </Col>
+                        <Col className='m-3'> <Card.Title>LOCATION:-</Card.Title>
+                            <Card.Text> Sector -21B , Faridabad</Card.Text>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col className='m-3'> <Card.Title>AREA:-</Card.Title>
+                            <Card.Text> 1000 Sq.yrd.</Card.Text>
+                        </Col>
+                        <Col className='m-3'> <Card.Title>TYPE OF BUILDING:-</Card.Title>
+                            <Card.Text> Residential Building Ground , First & Second Floor</Card.Text>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col className='m-3'> <Card.Title>SERVICES PROVIDED :-</Card.Title>
+                            <Card.Text> •Architecture Services •Interior Design Services •Elevation Work</Card.Text>
+                        </Col>
+                    </Row>
                 </div>
             </Card.Body>
 
