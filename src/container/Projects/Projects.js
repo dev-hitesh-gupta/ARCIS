@@ -3,19 +3,20 @@ import {CardDeck} from 'react-bootstrap'
 import ProjectCard from "./ProjectCard";
 
 const imageUrl = `${process.env.PUBLIC_URL}/car-image.jpg`;
-const count = 10;
 
+const projects = [{
+    title: 'Card Title',
+    text: `Some quick example text to build on the card title and make up the bulk of the card's content.`,
+    image: imageUrl,
+    link: '/project/1'
+}]
 
 export default class Projects extends React.Component {
     constructor(props) {
         super(props);
-        const card = <ProjectCard key={1} title='Card Title' text={`  Some quick example text to build on the card title and make
-                                 up the bulk of
-                                 the card's content.`} image={imageUrl}
-                                  link='/project/1'/>;
+
         this.state = {
             projectCards: [],
-            i: 1
         };
     }
 
@@ -35,12 +36,6 @@ export default class Projects extends React.Component {
 
     componentDidMount() {
         this.setCard();
-    }
-
-    componentDidUpdate() {
-        if (this.state.i <= count) {
-            this.setCard()
-        }
     }
 
     render() {

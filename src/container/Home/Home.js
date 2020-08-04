@@ -1,12 +1,12 @@
 import React from "react";
 import {Card} from "react-bootstrap";
-import {fadeInDown} from "react-animations";
+import {fadeIn} from "react-animations";
 import Radium, {StyleRoot} from "radium";
 
 const styles = {
-    bounceInDown: {
+    fadeIn: {
         animation: 'x 1s',
-        animationName: Radium.keyframes(fadeInDown, 'fadeInDown')
+        animationName: Radium.keyframes(fadeIn, 'fadeIn')
     }
 }
 
@@ -14,9 +14,9 @@ const imageUrl = `${process.env.PUBLIC_URL}/car-image.jpg`;
 export default function Home() {
     return (
         <StyleRoot>
-            <Card className='p-5 border-dark'>
+            <Card className='border-dark'>
                 <Card.Body>
-                    <img style={styles.bounceInDown} className='ml-3' src={imageUrl}
+                    <img style={styles.fadeIn} className='ml-3 img-fluid' src={imageUrl}
                          alt='Main'/>
                     <p className='m-3'>
                       ARCIS DESIGN

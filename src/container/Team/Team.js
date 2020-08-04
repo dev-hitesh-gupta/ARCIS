@@ -3,7 +3,7 @@ import {Card, Col, Container, Image, Row} from "react-bootstrap";
 
 export default function Team() {
     return (
-        <Card className='p-5 border-dark'>
+        <Card className='p-5 -border-none'>
             <Card.Body>
                 <Container>
                 <Row>

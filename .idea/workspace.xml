@@ -19,20 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f63d94aa-f432-4a10-b230-47a606d97b7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/dan-gold-N7RiDzfF2iw-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/isai-ramos-K0yNjawjRkM-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scott-umstattd-Vy-sy7IiGok-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/container/Projects/ProjectCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+    <list default="true" id="f63d94aa-f432-4a10-b230-47a606d97b7b" name="Default Changelist" comment="changes for animation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/container/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/Project/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/Project/Project.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/container/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/Projects/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/container/Team/Team.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/Team/Team.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +41,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XsrABjErhjz3wVpRtNf6fPsrwo" />
@@ -82,7 +81,7 @@
       <recent name="$PROJECT_DIR$/src/container/Team" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -92,7 +91,7 @@
       <scripts>
         <script value="build" />
       </scripts>
-      <node-interpreter value="project" />
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v12.18.2/bin/node" />
       <envs />
       <method v="2" />
     </configuration>
@@ -131,7 +130,8 @@
       <workItem from="1594624222220" duration="34000" />
       <workItem from="1595047209542" duration="456000" />
       <workItem from="1595226312370" duration="5000" />
-      <workItem from="1596458903292" duration="11500000" />
+      <workItem from="1596458903292" duration="12471000" />
+      <workItem from="1596540361434" duration="6995000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1582297545126</created>
@@ -140,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582297545126</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes for animation">
+      <created>1596470788875</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596470788875</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,36 +167,45 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="changes for animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes for animation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="177" y="55" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596459126209">
+    <state x="177" y="55" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596470805508">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="177" y="55" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1596459126209" />
+    <state x="177" y="55" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1596470805508" />
     <state x="434" y="199" width="560" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596460641073">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="434" y="199" width="560" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1294.741@72.27.1294.741" timestamp="1596460641073" />
-    <state width="1248" height="172" key="GridCell.Tab.0.bottom" timestamp="1596460113584">
+    <state x="172" y="127" width="1094" height="541" key="DiffContextDialog" timestamp="1596542872395">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596460113584" />
-    <state width="1248" height="172" key="GridCell.Tab.0.center" timestamp="1596460113582">
+    <state x="172" y="127" width="1094" height="541" key="DiffContextDialog/72.27.1294.741@72.27.1294.741" timestamp="1596542872395" />
+    <state width="1248" height="172" key="GridCell.Tab.0.bottom" timestamp="1596542689595">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1596460113582" />
-    <state width="1248" height="172" key="GridCell.Tab.0.left" timestamp="1596460113580">
+    <state width="1248" height="172" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596542689595" />
+    <state width="1248" height="172" key="GridCell.Tab.0.center" timestamp="1596542689592">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1596460113580" />
-    <state width="1248" height="172" key="GridCell.Tab.0.right" timestamp="1596460113583">
+    <state width="1248" height="172" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1596542689592" />
+    <state width="1248" height="172" key="GridCell.Tab.0.left" timestamp="1596542689590">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1596460113583" />
-    <state x="383" y="174" key="run.anything.popup" timestamp="1596466680863">
+    <state width="1248" height="172" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1596542689590" />
+    <state width="1248" height="172" key="GridCell.Tab.0.right" timestamp="1596542689594">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="383" y="174" key="run.anything.popup/72.27.1294.741@72.27.1294.741" timestamp="1596466680863" />
+    <state width="1248" height="172" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1596542689594" />
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596470794010">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741@72.27.1294.741" timestamp="1596470794010" />
+    <state x="383" y="174" key="run.anything.popup" timestamp="1596545783268">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="383" y="174" key="run.anything.popup/72.27.1294.741@72.27.1294.741" timestamp="1596545783268" />
   </component>
 </project>

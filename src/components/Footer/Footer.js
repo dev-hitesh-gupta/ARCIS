@@ -1,5 +1,7 @@
 import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faFacebook, faGoogle, faInstagram} from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
     return (
@@ -12,9 +14,28 @@ export default function Footer() {
             backgroundColor: '#e89f02',
             color: '#0c0c0c'
         }}>
-            <Container>
+            <div className='text-black' style={{
+                float: 'right'
+            }}>
+                <FontAwesomeIcon icon={faInstagram} style={{
+                    height: '40px',
+                    width: '40px',
+                    paddingRight: '10px'
+                }}/>
+                <FontAwesomeIcon icon={faGoogle} style={{
+                    height: '40px',
+                    width: '40px',
+                    paddingRight: '10px'
+                }}/>
+                <FontAwesomeIcon icon={faFacebook} style={{
+                    height: '40px',
+                    width: '40px',
+                    paddingRight: '10px'
+                }}/>
+            </div>
+            <Container fluid="sm">
                 <Row className='pt-3'>
-                    <Col>
+                    <Col xs={12} md={4}>
                         <ul style={{listStyleType: 'none', fontSize: 28}}>
                             <li><strong>OUR SERVICES</strong></li>
                             <li>ARCHITECTURE</li>
@@ -22,7 +43,7 @@ export default function Footer() {
                             <li>LANDSCAPE</li>
                         </ul>
                     </Col>
-                    <Col className='ml-2'>
+                    <Col xs={12} md={4}>
                         <ul style={{listStyleType: 'none', fontSize: 28}}>
                             <li><strong>AREA OF EXPERTISE</strong></li>
                             <li>RESIDENTIAL</li>
@@ -32,7 +53,7 @@ export default function Footer() {
                             <li>INSTITUTIONAL</li>
                         </ul>
                     </Col>
-                    <Col className='ml-2'>
+                    <Col xs={6} md={4}>
                         <ul style={{listStyleType: 'none', fontSize: 28}}>
                             <li><strong>CLIENTELE</strong></li>
                             <li></li>
