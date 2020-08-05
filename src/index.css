@@ -22,3 +22,8 @@ code {
 .navbar-dark .navbar-nav .nav-link {
   color: #ffffff !important;
 }
+
+ .img-max {
+  height: 100% !important;
+   max-height: 400px !important;
+}
